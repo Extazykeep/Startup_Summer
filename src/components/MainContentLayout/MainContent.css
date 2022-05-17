@@ -1,0 +1,14 @@
+.main-content-wrapper {
+	display: flex;
+	padding: 0 60px;
+	background-color: #f9f9f9;
+	min-height: calc(100vh - 72px);
+}
+@media screen and (max-width: 968px) {
+	.main-content-wrapper {
+		flex-direction: column;
+	}
+	.main-content-wrapper {
+		padding: 0 20px;
+	}
+}

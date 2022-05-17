@@ -1,0 +1,24 @@
+.state-content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: calc(100vh - 72px);
+	width: 100%;
+}
+.state-component-content {
+	max-width: 275px;
+	text-align: center;
+}
+.state-component-content .state-component-image-wrapper {
+	width: 64px;
+	margin: auto;
+}
+.state-component-content .state-component-image-wrapper img {
+	max-width: 100%;
+	height: auto;
+}
+.state-component-content p {
+	font-size: 22px;
+	font-weight: normal;
+	color: #808080;
+}

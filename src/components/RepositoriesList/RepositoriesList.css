@@ -1,0 +1,30 @@
+.repositories-list-content {
+	width: 100%;
+	margin-top: 60px;
+	margin-left: 85px;
+}
+.repositories-list-content h1 {
+	font-size: 32px;
+}
+.repositories-list-content .repository-item {
+	background-color: #fff;
+	width: 100%;
+	padding: 15px;
+	margin-top: 24px;
+}
+.repositories-list-content .repository-item a {
+	text-decoration: none;
+	color: #0064eb;
+	font-size: 24px;
+	padding-right: 20px;
+}
+@media screen and (max-width: 1024px) {
+	.repositories-list-content {
+		margin: 10px 0;
+	}
+}
+@media screen and (max-width: 480px) {
+	.repositories-list-content h1 {
+		font-size: 26px;
+	}
+}
